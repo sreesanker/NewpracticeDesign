@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back_ash"
+    android:layout_marginBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <EditText
+            android:id="@+id/edt_subject_addexp"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Subject"
+            android:textSize="20sp"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            />
+
+        <ImageButton
+            android:id="@+id/ib_removeSubjectTaught"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/remove_circle" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
