@@ -807,15 +807,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 EditText edt_expTeachingLevel = layout_expInfo.getChildAt(i).findViewById(R.id.edt_expTeachingLevel);
                 EditText edt_expStartDate = layout_expInfo.getChildAt(i).findViewById(R.id.edt_expStartDate);
                 EditText edt_expEndDate = layout_expInfo.getChildAt(i).findViewById(R.id.edt_expEndDate);
-
-//                addexpedit_instname.add(edt_expInstitutionName);
-//                addexpedit_startdate.add(edt_expStartDate);
-//                addexpedit_enddate.add(edt_expEndDate);
-//                addexpedit_teachinglevel.add(edt_expTeachingLevel);
-
-//                String startdatestr = addexpedit_startdate.get(i).getText().toString();
-  //
-                //              String enddatestr = addexpedit_enddate.get(i).getText().toString();
+                
 
                 Model.AddExperienceBean addex = new Model.AddExperienceBean();
 
